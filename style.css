@@ -1,0 +1,234 @@
+/*https://colorhunt.co/palette/36ba98e9c46af4a261e76f51 LINK: Paleta de color*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E9C46A;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px; 
+    line-height: 150%;
+}
+body{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+.encabezado{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cuadro_encabezado{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.encabezado-titulo{
+    display: flex;
+    justify-content: center;
+    font-family: "Bungee";
+    font-size: 75px;
+    color: #36BA98;
+
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+.texto-area{
+    border: none;
+    color: #E76F51;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{color: #E76F51;}
+    .texto-area:focus{
+        outline: none;
+    }
+
+   .mensaje{
+        background-color: #E9C46A;
+        background-image: url("Assets/Muñeco2.png");
+        background-repeat: no-repeat;
+        border: none;
+        border-radius: 24px;
+        color: #36BA98;
+        margin-left: 98px;
+        margin-top: 20px;
+        padding-left: 20px;
+        position: absolute;
+    }
+
+    .mensaje:focus{
+        outline: none;
+    }
+
+    .mensaje-container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        color: #E76F51;
+    }
+
+    .texto-uno{
+        
+        margin-left: 108px;
+        margin-top: 402px;
+        position: absolute;
+        font-size: small;
+        background-color: #E9C46A;
+        
+    }
+
+    .texto-uno:focus{
+        outline: none;
+    }
+
+
+    .botones{
+        display: flex;
+        margin-top: 18px;
+    }
+
+    .btn-desencriptar{
+        background: #F4A261;
+        border: 2px solid #36BA98;
+        border-radius: 24px;
+        color: #36BA98;
+        cursor: pointer;
+        height: 67px;
+        margin-left: 30px;
+        width: 328px;
+    } 
+
+
+    .btn-encriptar{
+        background: #36BA98;
+        border: 2px solid #E76F51;
+        border-radius: 24px;
+        color: #E9C46A;
+        cursor: pointer;
+        height: 67px;
+        width: 328px;
+    }
+
+    .btn-encriptar:hover{
+        background: #000000;
+        border: 1 px solid #000000;
+    }
+
+    .btn-desencriptar:hover{
+        background: #000000;
+        border: 1 px solid #000000;
+    }
+
+    .copiar{
+        background-color: #E76F51;
+        border: 2px solid #36BA98;
+        border-radius: 24px;
+        color: #E9C46A;
+        cursor: pointer;
+        height: 67px;
+        width: 336px;
+        margin-left: 108px;
+        margin-top: 402px;
+        position: absolute;
+    }
+
+    .copiar:hover{
+        background: #000000;
+        border: 1 px solid #000000;
+    }
+
+    .informacion{
+        color: #E76F51;
+        font-size: 18px;
+    }
+
+    .footer{
+        width: auto;
+        background-color: #E76F51;
+        padding: 2 rem;
+        color: #000000;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+
+    }
+
+    .footer-nombre{
+        background-color: #E76F51;
+    }
+
+    .bi-bi-github{
+        background-color: #E76F51;
+    }
+
+    .bi-bi-linkedin{
+        background-color: #E76F51;
+    }
+    
+    @media (max-width: 1024px) {
+        main{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .section-uno{
+            display: flex;
+            flex-direction: column;
+            margin-top: 50%;
+        }
+
+        .mensaje{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer{
+        width: auto;
+        }
+    }
+
+    @media (max-width: 900px){
+        main{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .section-uno{
+            display: flex;
+            flex-direction: column;
+            margin-top: 60%;
+        }
+
+        .mensaje{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .encabezado-titulo{
+            font-size: 50px;
+        }
+
+        .footer{
+        width: auto;
+        }
+    }
